@@ -1,0 +1,60 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+:root {
+/* text colors */
+--text-white: #f3f4f6;
+
+/* navbar */
+--navbar-color: #798479;
+}
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Josefin Sans", sans-serif;
+text-decoration: none;
+list-style-type: none;} 
+
+/* Header */
+
+header{
+    background-color: var(--navbar-color);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px; 
+    padding: 0px 40px;
+    /* Para que quede siempre arriba */
+    position: fixed;
+    top: 0;
+    /* Para que se vea siempre por encima */
+    z-index: 2;
+}
+
+.logo {
+    height: 80%;
+}
+
+.navbar, 
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-list {
+    gap: 60px;
+}
+
+.navbar-list a {
+    color: var(--text-white);
+    font-size: 16px;
+
+}
+
+.navbar-list li:first-child > a {
+    font-weight: 700;
+
+}
