@@ -7,6 +7,7 @@
 
 /* navbar */
 --navbar-color: #798479;
+--navbar-color-2: #000000;
 }
 
 *{margin: 0;
@@ -19,7 +20,7 @@ list-style-type: none;}
 /* Header */
 
 header{
-    background-color: var(--navbar-color);
+    background-color: var(--navbar-color-2);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -34,7 +35,7 @@ header{
 }
 
 .logo {
-    height: 80%;
+    height: 100%;
 }
 
 .navbar, 
