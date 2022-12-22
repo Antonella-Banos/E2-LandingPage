@@ -63,6 +63,18 @@ header{
 
 }
 
+/* Main */
+
+main {
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
 /* Hero */
 
 #hero {
