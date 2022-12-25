@@ -114,9 +114,24 @@ main {
     padding: 8px 0px;
     border-radius: 12px;
     font-size: 16px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-image img {
     border-radius: 0.4rem;
 }
+
+h4 {
+    margin-top: 70px;
+    padding: 10px 150px;
+    font-weight: 100;
+    font-size: 18px;
+    color: var(--text-grey);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
