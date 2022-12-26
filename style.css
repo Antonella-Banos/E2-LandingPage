@@ -120,6 +120,18 @@ main {
     align-items: center;
 }
 
+.buttons {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.buttons a:nth-child(2) {
+    background: var(--text-white);
+    color: var(--navbar-color);
+    border: 1.8px solid var(--navbar-color);
+}
+
 .hero-image img {
     border-radius: 0.4rem;
 }
