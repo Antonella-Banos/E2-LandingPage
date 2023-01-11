@@ -215,7 +215,8 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row; 
+    gap: 50px;
 }
 
 #contact h2 {
@@ -253,4 +254,5 @@ h4 {
     gap: 10px;
 
 }
+
 
