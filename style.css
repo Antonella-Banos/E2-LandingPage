@@ -204,10 +204,6 @@ h4 {
     gap: 30px;
 }
 
-.info-cards-container img {
-    color: var(--text-grey);
-}
-
 /* Contact */
 
 #contact {

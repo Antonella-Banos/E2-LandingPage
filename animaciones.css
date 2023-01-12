@@ -1,0 +1,44 @@
+/* Agregado de scroll behavior smooth y scroll padding top */
+
+html { 
+    scroll-behavior: smooth;
+    scroll-padding-top: 65px;
+}
+
+/* Botones de la sección hero */
+
+.buttons a:nth-child(1):hover {
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+
+.buttons a:nth-child(2):hover {
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+
+/* Cards */
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(100px)
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.info-cards-container {
+    animation: fade 4s ease-in-out infinite, slide-up 4s ease-in-out infinite;
+}
