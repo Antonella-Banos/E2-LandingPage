@@ -228,7 +228,8 @@ h4 {
     -webkit-background-clip: text;
 }
 
-.contact-info-text {  
+.contact-info {
+    max-width: 1200px;  
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -239,20 +240,21 @@ h4 {
 
 }
 
-.contact-info-text img {
+.contact-info img {
     width: 20px;
     height: 20px;
-    gap: 10px;
+    gap: 20px;
 }
 
-.contact-info-text-top span, 
-.contact-info-text-mid span, 
-.contact-info-text-bot span {
+.contact-info-top span, 
+.contact-info-mid span, 
+.contact-info-bot span {
     color: var(--text-grey);
     align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
-
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
 }
+
 
 
