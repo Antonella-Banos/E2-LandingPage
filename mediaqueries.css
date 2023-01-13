@@ -69,11 +69,16 @@
 
 }
 
+
+
 @media (max-width: 710px) {
     
     /* Contact */
 
-   
+    iframe {
+        display:none; 
+    }
+
 }
 
 
