@@ -1,0 +1,80 @@
+/* Escritorio chico */
+
+@media (max-width: 1035px) {
+
+    /* Hero */
+
+    .hero-info {
+        width: 40%;
+    }
+
+    /* Contact */
+
+    #contact {
+        width: 90%;
+    }
+}
+
+/* Tablet */
+
+@media (max-width: 920px) {
+    
+    /* Navbar */
+
+  .navbar-list {
+    position: absolute;
+    top: 100px;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    flex-direction: column;
+    background-color: var(--navbar-color);
+    border: 1.5px solid var(--text-grey);
+    border-top: 0px;
+    border-radius: 0px 0px 10px 10px;
+    align-items: flex-start;
+    padding: 45px 30px;
+    gap: 30px; 
+    z-index: 2;
+    display: none;
+    }
+
+    /* Mostramos el icono del menú */
+
+    .menu-label {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .menu-label img {
+        height: 20px;
+    }
+
+    #menu-toggle:checked + 
+    .navbar-list {
+        display: flex;
+    }
+
+    .hero-image {
+        display: none;
+    }
+
+    .hero-info {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+}
+
+@media (max-width: 710px) {
+    
+    /* Contact */
+
+   
+}
+
+
+

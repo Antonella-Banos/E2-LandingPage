@@ -63,6 +63,14 @@ header{
 
 }
 
+
+/* Ocultar hamburguesa y checkbox */
+
+#menu-toggle,
+.menu-label {
+    display: none;
+}
+
 /* Main */
 
 main {
@@ -246,14 +254,19 @@ h4 {
     gap: 20px;
 }
 
+.contact-info-top,
+.contact-info-mid,
+.contact-info-bot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    }
+
 .contact-info-top span, 
 .contact-info-mid span, 
 .contact-info-bot span {
     color: var(--text-grey);
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 20px;
 }
 
 
