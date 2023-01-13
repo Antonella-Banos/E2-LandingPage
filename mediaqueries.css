@@ -69,7 +69,7 @@
 
 }
 
-
+/* Tablet */
 
 @media (max-width: 710px) {
     
@@ -79,7 +79,26 @@
         display:none; 
     }
 
+    .contact-info {
+        margin-right: 0;
+    }
 }
+
+
+@media (max-width: 520px) {
+
+    main {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
